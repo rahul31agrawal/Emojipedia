@@ -8,7 +8,10 @@ var emojiDictionary = {
   "🤗": "Hugging Face",
   "😎": "Smiling Face with Sunglasses",
   "😟": "Worried Face",
-  "😢": "Crying Face"
+  "😢": "Crying Face",
+  "❤️": "Love Heart",
+  "🔥": "Fire",
+  "🥺": "Pleading Face"
 };
 var emojisWeKnow = Object.keys(emojiDictionary);
 
@@ -31,7 +34,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>Emojipedia</h1>
+      <h1>Emojipedia 🔎</h1>
       <input
         placeholder="Search your emoji here"
         onChange={emojiInputHandler}
